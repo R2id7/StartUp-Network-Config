@@ -19,7 +19,7 @@ This project demonstrates the design of a small startup network using VLAN segme
 - Inter-VLAN routing verified using ping
 
 ## 📷 Network Diagram
-(Add your diagram here)
+<img width="1366" height="619" alt="Capture" src="https://github.com/user-attachments/assets/cd9e6a21-5734-4493-81f1-84013171d41e" />
 
 ## 🚀 Author
-Your Name
+Marouane akid
