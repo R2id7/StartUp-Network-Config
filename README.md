@@ -9,18 +9,6 @@
 ## 📌 Overview
 A fully functional small business network designed and implemented using Cisco Packet Tracer. This project simulates a real startup company environment with department segmentation, centralized server services, and secure remote management.
 
-## 🗂️ Network Topology
-
-        [Router R1 – Cisco 1941]
-          GigabitEthernet 0/0
-                  |
-          GigabitEthernet 0/1
-        [SW1-Core – Cisco 2960]
-      /    /    |    |    |    \    \
-  PC-HR1 IT1  IT2  IT3  IT4  SERVER  ADMIN-PC
-  fa0/1  fa0/2 ...       fa0/6  fa0/7
----
-
 ## 🗃️ VLAN Structure
 
 | VLAN | Name    | Network           | Gateway       | Purpose              |
@@ -43,19 +31,6 @@ A fully functional small business network designed and implemented using Cisco P
 | PC-IT4   | 20   | 192.168.20.x    | DHCP    |
 | Server   | 40   | 192.168.40.10   | Static  |
 | Admin PC | 99   | 192.168.99.10   | Static  |
-
----
-
-## ✅ Features Implemented
-
-- ✅ VLAN Segmentation — HR, IT, Server, Management isolated
-- ✅ Inter-VLAN Routing — Router-on-a-Stick (802.1Q sub-interfaces)
-- ✅ DHCP Server — Auto IP assignment for HR and IT with relay agent
-- ✅ DNS Server — Resolves www.startup.local
-- ✅ HTTP Web Server — Internal company portal
-- ✅ SSH Remote Management — Admin can securely manage the router
-- ✅ Port Security — Unused switch ports disabled
-- ✅ Spanning Tree (STP) — Portfast enabled on access ports
 
 ---
 
