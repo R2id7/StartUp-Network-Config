@@ -65,7 +65,7 @@ ssh -l admin 192.168.99.1  # Secure router access
 
 | File              | Description                    |
 |-------------------|--------------------------------|
-| Network.pkt | Cisco Packet Tracer project file |
+| [network.pkt ](https://github.com/R2id7/StartUp-Network-Config/blob/main/network.pkt)| Cisco Packet Tracer project file |
 | README.md       | This documentation              |
 
 ## 🚀 Author
