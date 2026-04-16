@@ -50,34 +50,12 @@ A fully functional small business network designed and implemented using Cisco P
 > All links use GigabitEthernet (1000 Mbps) for the uplink and FastEthernet (100 Mbps) for end devices.
 
 
-## 🧪 Tests Performed
-
-# From any PC — automatic IP via DHCP
-ipconfig
-
-# Ping across VLANs
-ping 192.168.10.x    # HR to IT
-ping 192.168.40.10   # Any PC to Server
-
 # Web browser
 http://www.startup.local   # Internal portal
 
 # Admin remote management
 ssh -l admin 192.168.99.1  # Secure router access
 
-## 🧠 Features
-- VLAN segmentation (IT, Admin, Server)
-- Router-on-a-stick configuration
-- Basic network security
-- Structured IP addressing
-
-## 🖥️ Technologies
-- Cisco Packet Tracer
-- Networking (CCNA basics)
-
-## 🧪 Testing
-- Successful communication within VLANs
-- Inter-VLAN routing verified using ping
 
 ## 📷 Network Diagram
 <img width="1366" height="619" alt="Capture" src="https://github.com/user-attachments/assets/cd9e6a21-5734-4493-81f1-84013171d41e" />
